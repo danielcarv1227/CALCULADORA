@@ -173,3 +173,17 @@ main {
     font-size: 1.25rem;
     padding-block: 0.5rem;
 }
+
+@media(min-width: 920px) {
+    main {
+        display: flex;
+        gap: 3rem;
+    }
+    main section {
+        width: 100%;
+    }
+
+    .gorjeta div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
