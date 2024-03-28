@@ -175,9 +175,25 @@ main {
 }
 
 @media(min-width: 920px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100svh;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    header {
+        padding: 0;
+    }
+
     main {
         display: flex;
         gap: 3rem;
+        padding: 3rem;
+        border-radius: 1.5625rem;
+        max-width: 57.5rem;
+        margin-inline: auto;
     }
     main section {
         width: 100%;
